@@ -107,3 +107,32 @@ ul {
 .login-card button:hover {
   background-color: #276749;
 }
+
+.festival-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  padding: 15px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.festival-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.month-section {
+  margin-bottom: 40px;
+}
+
+.festival-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
